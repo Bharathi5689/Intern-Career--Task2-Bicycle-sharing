@@ -1,0 +1,42 @@
+Instructions File 
+
+Task 2: Data Processing - Bicycle sharing system
+
+    In this project,  you will perform an exploratory analysis on data provided by Motivate, a bike-share system provider for many major cities in the United States. You will compare the system usage between three large cities: New York City, Chicago, and Washington, DC. You will also see if there are any differences within each system for those users that are registered, regular users and those users that are short-term, casual users.
+  
+  
+Prerequisites:
+    
+    Before starting, ensure the following prerequisites.
+        
+        1. Python 3 installed on your system
+        
+        2. Check for required libraries installed.You can install them using pip
+        
+                " pip install pandas matplotlib numpy   "
+
+Usage:
+
+    1. Open a Python environment(e.g Jupyter Notebook, Python IDE) where you will run the script. 
+    2. Make sure the code is organized into separate cells for clarity and easy execution.
+    3. Execute the code cell by cell where different methods are defined and analysis are made.
+           
+         
+   This program will condense the data from different cities which contain different information, and also contain same information but with different formats and name. To make things as simple as possible we get to the actual exploration, we trimmed and cleaned the data and produce the results with understandable format with five different values like trip duration, starting month, starting hour, day of the week, and user type. The data will be stored in CSV files.
+   
+
+Output:
+
+    This program will generate the following output:
+
+    1. Cleaned and Analyzed data for each city will be saved in a three different CSV file named  as "'Chicago-2016-Summary.csv', 'NYC-2016-Summary.csv','Washington-2016-Summary.csv'".
+    
+    2. Results of exploratory analysis using histogram and bar chart will be printed to the console.
+
+
+
+
+
+
+
+
